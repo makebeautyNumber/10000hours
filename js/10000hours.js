@@ -55,7 +55,7 @@ window.onclick = function (event) {
 
 function copyUrl() {
     let url = window.location.href;
-    navigator.cliboard.writeText(url).then(() => {
+    navigator.clipboard.writeText(url).then(() => {
 	alert("URL이 복사되었습니다") 	   
     })
 }
